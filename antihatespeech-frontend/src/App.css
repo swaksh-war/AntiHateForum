@@ -1,0 +1,35 @@
+.main-navbar {
+    display : flex;
+    justify-content: space-between;
+    padding : 1rem 2rem;
+    background : #cfd8dc;
+}
+
+.navbar-ul {
+    display : flex;
+    list-style : none;
+}
+
+.nav-link {
+    padding-left: 1rem;
+}
+
+a{
+    text-decoration: None;
+}
+
+@media only screen and (max-width:600px) {
+    .main-navbar {
+        flex-direction: column;
+    }
+    
+    .navbar-ul {
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+    
+    .nav-link {
+        padding: 0.5rem 0;
+    }
+
+}
